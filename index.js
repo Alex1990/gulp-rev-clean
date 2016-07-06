@@ -6,7 +6,7 @@ module.exports = function (opts) {
   if (typeof opts === 'number') {
     opts = { keepQuantity: opts };
   } else {
-    opts.keepQuantity = Number(keepQuantity) || 2;
+    opts.keepQuantity = Number(opts.keepQuantity) || 2;
   }
   var lists = [];
 
